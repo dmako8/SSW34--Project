@@ -2,8 +2,8 @@
 
 **Team members & GitHub IDs:**
 
-*Veronika Myshkina, @vmysh
-*Daniel Mako, @dmako8
-*Kiedon Roettger, @
+* Veronika Myshkina, @vmysh
+* Daniel Mako, @dmako8
+* Kiedon Roettger, @
 
 [Design Milestone 1](DESIGN.md)
