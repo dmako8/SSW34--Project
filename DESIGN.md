@@ -58,9 +58,13 @@ If too much time has passed, the bot may ask the user who requested the reminder
 
 **Design Sketches:**
 
+Sequence Flow Diagram:
+
 ![Sequence Flow Diagram](img/sequence.png)
 
-(Create a storyboard that illustrates the primary task that a user undergoes with bot.)
+Storyboard:
+
+![Storyboard](img/storyboard.png)
 
 **Architecture Design:**
 
