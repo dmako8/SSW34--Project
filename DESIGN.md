@@ -68,6 +68,8 @@ Storyboard:
 
 **Architecture Design:**
 
-(Create a diagram that illustrates the components of your bot, the platform it is embedded in, third party services it may use, data storage it may require, etc.)
-(Describe the architecture components in text.)
-(This section should be several diagrams + paragraphs of text. Generic architectures that do not properly reflect a solution will receive low scores.)
+![Architecture Design](img/architecture.png)
+
+Crypto Bot will be a Discord bot, so it will use the Discord API and will live on a Discord server(s). The bot will be coded using JavaScript. Possibly, we may chose to use Python instead. In order to receive current market data of different cryptocurrencies, we will have to use the Coinbase API. The Nomics API is also an option (their website says that API keys are free, but it is unclear if they will require payment down the road).
+
+If we finish the first part of the bot (cryptocurrency price retrieval) before the deadline, we could also add a notification feature which would notify users when a watched currency reaches a desired price. For this part, we will have implement data storage for these notification requests in order to notify the user at a later time when/if the price reaches a certain level. We could use an SQL database or a Firebase database.
