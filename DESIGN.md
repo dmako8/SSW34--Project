@@ -16,7 +16,7 @@ The Crypto Bot will be a great solution to the problem because it will live in D
 
 **Use Cases:**
 
-1. Use case: check ticker prices
+1. *Use case: check ticker prices*
 
 i. Preconditions
 
@@ -35,7 +35,7 @@ iv. Alternative flows
 
 The requested ticker either doesn't exist or the user misspells the name. In this case, the bot cannot find the indicated crypto data and asks the user to check the spelling (or sends out an error message).
 
-2. Use case: set price reminder
+2. *Use case: set price reminder*
 
 i. Preconditions
 
@@ -58,7 +58,9 @@ If too much time has passed, the bot may ask the user who requested the reminder
 
 **Design Sketches:**
 
-(Create a  sequence flow or state transition mockup of your bot in action.)
+![Sequence Flow Diagram](/img/crypto-bot-sequence-diagram.png)
+Format: ![Alt Text](url)
+
 (Create a storyboard that illustrates the primary task that a user undergoes with bot.)
 
 **Architecture Design:**
