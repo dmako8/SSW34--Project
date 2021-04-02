@@ -58,8 +58,7 @@ If too much time has passed, the bot may ask the user who requested the reminder
 
 **Design Sketches:**
 
-![Sequence Flow Diagram](/img/crypto-bot-sequence-diagram.png)
-Format: ![Alt Text](url)
+![Sequence Flow Diagram](/img/Crypto-Bot-Sequence-Flow.png)
 
 (Create a storyboard that illustrates the primary task that a user undergoes with bot.)
 
