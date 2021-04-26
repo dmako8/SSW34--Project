@@ -4,6 +4,6 @@
 
 * Veronika Myshkina, @vmysh
 * Daniel Mako, @dmako8
-* Kiedon Roettger, @
+* Keidon Roettger, @
 
 [Design Milestone 1](DESIGN.md)
