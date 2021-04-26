@@ -1,0 +1,22 @@
+{
+  "name": "ssw34--project",
+  "version": "1.0.0",
+  "description": "CryptoBot final project for SSW-345",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmako8/SSW34--Project.git"
+  },
+  "author": "Veronika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmako8/SSW34--Project/issues"
+  },
+  "homepage": "https://github.com/dmako8/SSW34--Project#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
