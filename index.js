@@ -2,13 +2,21 @@ const Discord = require('discord.js');
 require('dotenv').config();
 const client = new Discord.Client();
 
-client.login(bot_token); //create a separate configuration file later for the token
-const bot_token = process.env.DISCORD_KEY;
-
+client.login(process.env.BOTTOKEN)
 //console.log(process.env);
 
 client.on('ready', readyDiscord);
 
 function readyDiscord(){
     console.log('SUCCESS');
+}
+
+client.on('message', gotMessage);
+
+function gotMessage(msg) {
+    //console.log(msg.content);
+    if (msg.channel.id == '839310571161255936' && msg.content === 'hello'){
+        //msg.reply('how\'s it going?');
+        msg.channel.send('how\'s it going?');
+    }
 }
