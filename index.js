@@ -35,13 +35,12 @@ async function gotMessage(msg) {
             var hour = Math.floor(secElapsedToday / 3600);
             var minute = Math.floor((secElapsedToday - hour*3600)/60);
             var currentTime = hour.toString() + ':' + minute.toString() + ':00';
-
-            msg.channel.send('here\'s the price of ' + tokens[1] + ':');
+            
             let url = `https://www.alphavantage.co/query?function=CRYPTO_INTRADAY&symbol=${tokens[1]}&market=USD&interval=1min&apikey=${process.env.VANTAGEAPI}`
             let response = await fetch(url);
             let json = await response.json();
+            msg.channel.send('here\'s the price of ' + json["Meta Data"]["3. Digital Currency Name"] + ':');
             console.log(json["Time Series Crypto (1min)"][today + " " + currentTime]["1. open"]);
-            //console.log(currentTime);
             msg.channel.send('$'+json["Time Series Crypto (1min)"][today + " " + currentTime]["1. open"]);
         }
     }
