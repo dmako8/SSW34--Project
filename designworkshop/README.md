@@ -1,3 +1,5 @@
+**Add CryptoBot2.0 to your Discord server with this link: https://discord.com/oauth2/authorize?client_id=839305180725641306&scope=bot
+
 1.Read through seed ideas (Links to an external site.). Select 1-2 your group might want to work on.
 
 We want to work on a Discord Music Bot or Pricing Bot
