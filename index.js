@@ -16,7 +16,7 @@ client.on('message', gotMessage);
 
 async function gotMessage(msg) {
     //console.log(msg.content);
-    if (msg.channel.id == '839310571161255936'){ //change this later to allow bot in all channels
+    if (msg.channel.id == '839310571161255936' || msg.channel.id == '839652759279370240'){ //change this later to allow bot in all channels
         let tokens = msg.content.split(" ");
 
         if (tokens[0] == "hello"){
