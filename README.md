@@ -6,4 +6,6 @@
 * Daniel Mako, @dmako8
 * Keidon Roettger, @keidonroet
 
-[Design Milestone 1](DESIGN.md)
+[Design Milestone](DESIGN.md)
+[Process Milestone](PROCESS.md)
+[Report](REPORT.md)
