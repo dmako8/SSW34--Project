@@ -25,11 +25,11 @@ Reflecting on our progress after the first iteration, it can be said that time c
 
 This iteration was much shorter than the first, and more tasks were completed than in the first iteration. We decided to focus on our main use-case of retrieving current cryptocurrency prices when requested by a user. Here is what our story/task assignments and labels looked like at the beginning of this iteration:
 
-![Second Iteration Start](img/2st-iteration.png)
+![Second Iteration Start](img/2nd-iteration.png)
 
 During this iteration we also did not take any scrum meeting notes. Here is what our Kanban board looked like at the end of the second iteration:
 
-![Second Iteration End](img/2st-iteration-end.png)
+![Second Iteration End](img/2nd-iteration-end.png)
 
 As you can see, not all issued are closed. These issues were marked as "optional" because they were not necessary to implement the use-case under our team's time constraints. These tasks were still left on the board in case the team decides to do a third iteration and continue adding features and improving the CryptoBot.
 
