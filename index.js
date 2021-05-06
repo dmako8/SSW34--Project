@@ -28,7 +28,7 @@ async function gotMessage(msg) {
             var today = new Date();
             var yyyy = today.getFullYear();
             var mm = String(today.getMonth() + 1).padStart(2, '0');
-            var dd = String(today.getDate()).padStart(2, '0');
+            var dd = String(today.getUTCDate()).padStart(2, '0');
             today = yyyy + '-' + mm + '-' + dd;
             var timeElapsed = Math.floor(Date.now() / 1000);
             var secElapsedToday = timeElapsed % 86400;
@@ -41,6 +41,8 @@ async function gotMessage(msg) {
             let json = await response.json();
             msg.channel.send('here\'s the price of ' + json["Meta Data"]["3. Digital Currency Name"] + ':');
             console.log(json["Time Series Crypto (1min)"][today + " " + currentTime]["1. open"]);
+            //console.log(today);
+            //console.log(currentTime);
             msg.channel.send('$'+json["Time Series Crypto (1min)"][today + " " + currentTime]["1. open"]);
         }
     }
