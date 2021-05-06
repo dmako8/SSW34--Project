@@ -31,6 +31,6 @@ During this iteration we also did not take any scrum meeting notes. Here is what
 
 ![Second Iteration End](img/2nd-iteration-end.png)
 
-As you can see, not all issued are closed. These issues were marked as "optional" because they were not necessary to implement the use-case under our team's time constraints. These tasks were still left on the board in case the team decides to do a third iteration and continue adding features and improving the CryptoBot.
+As you can see, not all issues are closed. These issues were marked as "optional" because they were not necessary to implement the use-case under our team's time constraints. These tasks were still left on the board in case the team decides to do a third iteration to continue adding features and improving the CryptoBot.
 
-Overall, there are some important lessons to be learned from these two iterations and the process that we used. First, better organization is needed to not leave everything until the last minute. Also, it would be helpful to automate the Kanban board next time so that issues automatically get moved to the "Done" column. Finally, it would have been beneficial if the team had discussed and agreed upon meeting times and stuck to those dates to be more productive.
+Overall, there are some important lessons to be learned from these two iterations and the process that we used. First, better organization is needed to not leave everything until the last minute. Also, it would be helpful to automate the Kanban board next time so that issues automatically get moved to the "Done" column. Finally, it would have been beneficial if the team had discussed and agreed upon meeting times and stuck to those dates to be more productive, istead of having unplanned meetings.
